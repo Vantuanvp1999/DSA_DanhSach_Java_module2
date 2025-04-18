@@ -135,7 +135,7 @@ public class MyLinkedList<E> {
         return numNodes;
         }
 
-        public void add1(E data) {
+        public boolean add1 (E data) {
             Node<E> newNode = new Node<>(data);
             if (head == null) {
                 head = newNode;
@@ -147,6 +147,7 @@ public class MyLinkedList<E> {
                 current.next = newNode;
             }
             numNodes++;
+            return true;
         }
 
         public MyLinkedList<E> clone() {
@@ -154,7 +155,7 @@ public class MyLinkedList<E> {
 
         Node current = head;
         while(current != null) {
-            cloneList.add1((E) current.data);
+            cloneList.addLast((E) current.data);
             current = current.next;
         }
         return cloneList;

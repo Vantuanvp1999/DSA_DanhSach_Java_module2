@@ -19,6 +19,9 @@ public class MyLinkListTest {
         for (int i = 0; i < linkedList.size(); i++) {
             System.out.println(linkedList.get(i));
         }
-
+        linkedList.removeElement(2);
+        for (int i = 0; i < linkedList.size(); i++) {
+            System.out.println(linkedList.get(i));
+        }
     }
 }
