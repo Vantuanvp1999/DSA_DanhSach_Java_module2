@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bai tap_bai1/Bai tap_bai1.iml" filepath="$PROJECT_DIR$/Bai tap_bai1/Bai tap_bai1.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA_DanhSach.iml" filepath="$PROJECT_DIR$/DSA_DanhSach.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thuc hanh_bai1/Thuc hanh_bai1.iml" filepath="$PROJECT_DIR$/Thuc hanh_bai1/Thuc hanh_bai1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thuc hanh_bai2/Thuc hanh_bai2.iml" filepath="$PROJECT_DIR$/Thuc hanh_bai2/Thuc hanh_bai2.iml" />
